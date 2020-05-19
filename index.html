@@ -21,7 +21,7 @@
               <div class="logo-img"></div>
               <span class="logo-text h1">BURGER-QUIZ</span>
             </div>
-            <h1 class="contacts d-none d-md-block">GLO Academy</h1>
+            <h1 class="contacts d-none d-md-block">Food</h1>
             <div class="burger" id="burger">
               <span></span>
               <span></span>
@@ -47,7 +47,7 @@
       <div class="row">
         <div class="col">
           <div class="d-flex flex-column align-items-center p-1 p-sm-2 p-md-3">
-            <h2 class="main-title text-center h1">Take the test and create</h2>
+            <h2 class="main-title text-center h1">Take a test and create</h2>
             <h2 class="main-title text-center h1">a burber of your dream</h2>
           </div>
         </div>
@@ -64,8 +64,8 @@
       <div class="row">
         <div class="col">
           <div class="d-flex justify-content-center p-1 p-sm-2 p-md-3">
-            <button type="button" class="btn btn-outline-danger" id="btnOpenModal">
-              <span class="btnText h1">Take the text and get a result</span>
+            <button type="button" class="btn btn-outline-danger p-md-3 btn-sm" id="btnOpenModal">
+              <span class="btnText h1">Take the test and get a result</span>
             </button>
           </div>
         </div>
@@ -105,15 +105,18 @@
           </div>
         </div>
         <div class="modal-footer" id="modalFooter">
-          <button type="button" class="btn btn-secondary" data-dismiss="modal" id="prev">Prev</button>
-          <button type="button" class="btn btn-secondary" data-dismiss="modal" id="next">Next</button>
+          <button type="button" class="btn btn-warning" data-dismiss="modal" id="prev">Prev</button>
+          <button type="button" class="btn btn-warning" data-dismiss="modal" id="next">Next</button>
           <button type="button" class="btn btn-primary sendBtn d-none" id="send">Send</button>
         </div>
       </div>
     </div>
   </div>
 
-  <script src="./script/script.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/7.14.4/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/7.14.4/firebase-database.js"></script>
+
+  <script src="./js/main.js"></script>
 </body>
 
 </html>
