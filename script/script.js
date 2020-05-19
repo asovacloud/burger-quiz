@@ -27,72 +27,72 @@ document.addEventListener('DOMContentLoaded', () => {
   // data
   const questions = [
     {
-      question: "Какого цвета бургер?",
+      question: "Choose the color of your burger?",
       answers: [
           {
-              title: 'Стандарт',
+              title: 'Standart',
               url: './image/burger.png'
           },
           {
-              title: 'Черный',
+              title: 'Black',
               url: './image/burgerBlack.png'
           }
       ],
       type: 'radio'
     },
     {
-      question: "Из какого мяса котлета?",
+      question: "Choose the meat?",
       answers: [
           {
-              title: 'Курица',
+              title: 'Chicken',
               url: './image/chickenMeat.png'
           },
           {
-              title: 'Говядина',
+              title: 'Beef',
               url: './image/beefMeat.png'
           },
           {
-              title: 'Свинина',
+              title: 'Pork',
               url: './image/porkMeat.png'
           }
       ],
       type: 'radio'
     },
     {
-      question: "Дополнительные ингредиенты?",
+      question: "Additional ingredients?",
       answers: [
           {
-              title: 'Помидор',
+              title: 'Tomato',
               url: './image/tomato.png'
           },
           {
-              title: 'Огурец',
+              title: 'Cucumber',
               url: './image/cucumber.png'
           },
           {
-              title: 'Салат',
+              title: 'Salad',
               url: './image/salad.png'
           },
           {
-              title: 'Лук',
+              title: 'Onion',
               url: './image/onion.png'
           }
       ],
       type: 'checkbox'
     },
     {
-      question: "Добавить соус?",
+      question: "Add sauce?",
       answers: [
           {
-              title: 'Чесночный',
+              title: 'Garlic',
               url: './image/sauce1.png'
           },
           {
-              title: 'Томатный',
+              title: 'Tomato',
               url: './image/sauce2.png'
           },
           {
-              title: 'Горчичный',
+              title: 'Mustard',
               url: './image/sauce3.png'
           }
       ],
@@ -110,7 +110,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // variable with the number of the question
     let numberQuestion = 0;
-    modalTitle.textContent = 'Ответить на вопрос';
+    modalTitle.textContent = 'Answer the question:';
 
     const finalAnswers = [];
     const obj = {};
